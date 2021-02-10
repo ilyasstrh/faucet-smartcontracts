@@ -1,0 +1,27 @@
+{
+  "name": "faucet",
+  "version": "1.0.0",
+  "description": "basic smart-contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyasstrh/faucet-smartcontracts.git"
+  },
+  "author": "ilyasstrh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyasstrh/faucet-smartcontracts/issues"
+  },
+  "homepage": "https://github.com/ilyasstrh/faucet-smartcontracts#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-wallet": "^1.0.1",
+    "truffle-wallet-provider": "0.0.5"
+  }
+}
